@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "LtJsonRpcClient",
+	"category" : "BitcoinRPC-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BitcoinRpcClient",
+	"type" : "normal"
+}
