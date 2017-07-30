@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "EstebanMaringolo 7/30/2017 17:32",
+	"commentStamp" : "EstebanMaringolo 7/30/2017 17:56",
 	"super" : "NeoJSONRPCClient",
 	"category" : "BitcoinRPC-Core",
 	"classinstvars" : [ ],
