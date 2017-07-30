@@ -1,3 +1,3 @@
 api
 getBestBlockHash
-	^ self direct call: 'getbestblockhash'
+	^ self accessor call: 'getbestblockhash'

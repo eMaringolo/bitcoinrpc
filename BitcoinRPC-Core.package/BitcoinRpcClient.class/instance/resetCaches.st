@@ -1,4 +1,4 @@
 private
 resetCaches
 	self cache reset.
-	self callsCache reset
+	self accessor isCached ifTrue: [ self accessor reset ]

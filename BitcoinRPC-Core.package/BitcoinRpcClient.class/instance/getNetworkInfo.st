@@ -1,3 +1,3 @@
 api
 getNetworkInfo
-	^ self direct call: 'getnetworkinfo'
+	^ self accessor call: 'getnetworkinfo'

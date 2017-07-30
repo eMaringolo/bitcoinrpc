@@ -1,4 +1,3 @@
-convenience
 accessor
-
-	^self callsCache
+accessor
+	^ accessor ifNil: [ accessor := BitcoinRpcDirectCallAccessor for: self ]

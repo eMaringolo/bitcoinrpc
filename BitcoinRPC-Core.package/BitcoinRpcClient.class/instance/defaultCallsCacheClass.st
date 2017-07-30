@@ -1,3 +1,0 @@
-private
-defaultCallsCacheClass
-	^BitcoinRpcDummyCallCache

@@ -1,4 +1,8 @@
 api
-getBlock: aString 
-	
-	^self getBlock: aString serialized: false
+getBlock: aString
+	^ self
+		cacheOf: BtcBlock
+		atKey: aString
+		ifAbsentPut: [ self
+				createInstanceOf: BtcBlock
+				withResult: (self callGetBlock: aString) ]

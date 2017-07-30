@@ -1,10 +1,8 @@
 api
 getTransaction: aString
 	^ self
-		createInstanceOf: BtcTransaction
-		withResult:
-			(self accessor
-				call: 'getrawtransaction'
-				arguments:
-					{aString.
-					true})
+		cacheOf: BtcTransaction
+		atKey: aString
+		ifAbsentPut: [ self
+				createInstanceOf: BtcTransaction
+				withResult: (self callGetTransaction: aString) ]
