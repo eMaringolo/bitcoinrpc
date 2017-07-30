@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"transactions"
+		"transactions",
+		"nextBlock",
+		"previousBlock"
 	],
 	"name" : "BtcBlock",
 	"type" : "normal"

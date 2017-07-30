@@ -1,4 +1,4 @@
 configuration
 enableCallsCache
 	callsCache class = BitcoinRpcCallCache
-		ifFalse: [ self initializeCallsCache ]
+		ifFalse: [ callsCache := BitcoinRpcCallCache for: self ]

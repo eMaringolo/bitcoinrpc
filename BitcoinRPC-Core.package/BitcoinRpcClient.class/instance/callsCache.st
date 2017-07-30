@@ -1,3 +1,4 @@
 private
 callsCache
-	^ callsCache ifNil: [ self initializeCallsCache ]
+	callsCache ifNil: [ self initializeCallsCache ].
+	^callsCache

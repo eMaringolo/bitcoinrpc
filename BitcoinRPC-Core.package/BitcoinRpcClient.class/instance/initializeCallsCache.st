@@ -1,3 +1,3 @@
 private
 initializeCallsCache
-	^ callsCache := BitcoinRpcCallCache for: self
+	callsCache := self defaultCallsCacheClass for: self
