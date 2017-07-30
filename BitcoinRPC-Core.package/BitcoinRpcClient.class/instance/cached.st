@@ -1,0 +1,3 @@
+convenience
+cached
+	^ self callsCache

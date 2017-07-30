@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "EstebanMaringolo 7/30/2017 00:43",
+	"super" : "BitcoinRpcAbstractCache",
+	"category" : "BitcoinRPC-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BitcoinRpcCallCache",
+	"type" : "normal"
+}

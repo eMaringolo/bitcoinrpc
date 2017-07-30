@@ -1,0 +1,1 @@
+I'm a Bitcoin Block, I store transactions and I'm linked with a previous block, building a blockchain.

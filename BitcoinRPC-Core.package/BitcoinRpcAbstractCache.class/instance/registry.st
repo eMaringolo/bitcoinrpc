@@ -1,0 +1,3 @@
+private
+registry
+	^ registry

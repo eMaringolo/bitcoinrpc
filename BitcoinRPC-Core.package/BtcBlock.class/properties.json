@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "EstebanMaringolo 7/28/2017 18:06",
+	"super" : "BtcObject",
+	"category" : "BitcoinRPC-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"transactions"
+	],
+	"name" : "BtcBlock",
+	"type" : "normal"
+}

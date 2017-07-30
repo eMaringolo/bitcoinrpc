@@ -1,4 +1,3 @@
 api
 getMemPoolInfo
-
-	^self call: 'getmempoolinfo'
+	^ self accessor call: 'getmempoolinfo'

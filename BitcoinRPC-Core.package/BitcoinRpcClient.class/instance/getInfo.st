@@ -1,3 +1,3 @@
 api
 getInfo
-	^self call: 'getinfo'
+	^ self accessor call: 'getinfo'

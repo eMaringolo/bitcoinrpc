@@ -1,3 +1,3 @@
 api
 getMiningInfo
-	^self call: 'getmininginfo'
+	^ self direct call: 'getmininginfo'

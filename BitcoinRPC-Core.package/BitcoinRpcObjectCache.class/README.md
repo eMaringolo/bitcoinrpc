@@ -1,0 +1,1 @@
+I'm a cache used to store mostly BtcObjects or any other reified model of the API.

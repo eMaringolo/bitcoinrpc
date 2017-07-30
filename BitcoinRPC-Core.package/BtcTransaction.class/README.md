@@ -1,0 +1,1 @@
+I represent a Bitcoin Transaction in the bitcoin network.
