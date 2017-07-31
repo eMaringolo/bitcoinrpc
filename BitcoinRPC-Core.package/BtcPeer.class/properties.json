@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BtcObject",
+	"category" : "BitcoinRPC-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BtcPeer",
+	"type" : "normal"
+}

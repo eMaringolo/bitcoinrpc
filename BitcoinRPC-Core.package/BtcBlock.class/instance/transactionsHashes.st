@@ -1,4 +1,4 @@
 accessing
 transactionsHashes
 
-	^(self at: 'tx')
+	^(self data at: 'tx')
