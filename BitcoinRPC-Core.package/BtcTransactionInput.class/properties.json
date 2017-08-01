@@ -1,14 +1,13 @@
 {
-	"commentStamp" : "EstebanMaringolo 7/29/2017 22:54",
+	"commentStamp" : "",
 	"super" : "BtcObject",
 	"category" : "BitcoinRPC-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"block",
-		"inputs"
+		"transaction"
 	],
-	"name" : "BtcTransaction",
+	"name" : "BtcTransactionInput",
 	"type" : "normal"
 }

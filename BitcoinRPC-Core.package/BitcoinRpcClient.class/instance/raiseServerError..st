@@ -1,3 +1,12 @@
 private-errors
 raiseServerError: response
-	^ (NeoJSONReader fromString: response contents as: NeoJSONRPCResponseError) signal
+	| data error |
+	data := (NeoJSONReader on: response contents readStream)
+		mapClass: NeoJSONObject;
+		next.
+	(data includesKey: 'error')
+		ifTrue: [ error := NeoJSONRPCResponseError new
+				messageText: (data atPath: #('error' 'message'));
+				tag: (data atPath: #('error' 'code')).
+			error signal ]
+		ifFalse: [ (NeoJSONRPCHttpError response: response) signal ]
