@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "EstebanMaringolo 8/2/2017 22:27",
+	"super" : "BtcObject",
+	"category" : "BitcoinRPC-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BtcAddressValidation",
+	"type" : "normal"
+}
