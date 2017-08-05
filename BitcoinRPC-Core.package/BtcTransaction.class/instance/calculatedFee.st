@@ -1,3 +1,3 @@
-as yet unclassified
+values
 calculatedFee
 	^self valueIn - self valueOut

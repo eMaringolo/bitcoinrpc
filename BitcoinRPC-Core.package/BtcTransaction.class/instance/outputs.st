@@ -1,3 +1,5 @@
 accessing
 outputs
-	^self data at: #vout
+	^outputs
+		ifNil: [ outputs := (self data at: #vout)
+				collect: [ :each | BtcTransactionOutput fromData: each on: client ] ]

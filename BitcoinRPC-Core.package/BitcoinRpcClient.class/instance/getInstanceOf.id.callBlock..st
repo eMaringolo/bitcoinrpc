@@ -1,7 +1,7 @@
 private-cache
 getInstanceOf: aClass id: anObject callBlock: aBlock
 	^ self
-		cacheOf: aClass
+		cacheOf: aClass species
 		atKey: anObject
 		ifAbsentPut: [ self
 				createInstanceOf: aClass

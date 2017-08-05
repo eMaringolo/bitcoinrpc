@@ -1,0 +1,1 @@
+I'm a peer node in the Bitcoin network that is connected to the server.
