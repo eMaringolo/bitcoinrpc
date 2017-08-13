@@ -1,0 +1,1 @@
+I'm represent a entry in the node mempool (memory pool of transactions not yet in the blockchain).

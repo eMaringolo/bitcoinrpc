@@ -1,16 +1,14 @@
 {
-	"commentStamp" : "EstebanMaringolo 7/28/2017 18:06",
+	"commentStamp" : "EstebanMaringolo 8/12/2017 20:48",
 	"super" : "BtcObject",
 	"category" : "BitcoinRPC-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"transactions",
-		"nextBlock",
-		"previousBlock",
-		"dateAndTime"
+		"transactionId",
+		"transaction"
 	],
-	"name" : "BtcBlock",
+	"name" : "BtcMempoolEntry",
 	"type" : "normal"
 }

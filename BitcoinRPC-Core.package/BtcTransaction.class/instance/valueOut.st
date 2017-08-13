@@ -1,4 +1,4 @@
 accessing
 valueOut
 	
-	^self vout sum: [ :each | each value ]
+	^self outputs sum: [ :each | each value ]

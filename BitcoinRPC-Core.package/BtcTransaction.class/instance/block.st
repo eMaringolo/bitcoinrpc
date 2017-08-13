@@ -1,3 +1,4 @@
 accessing
 block
-	^ block ifNil: [ block := self client getBlock: (self data at: #blockhash) ]
+	^ block
+		ifNil: [ (self data at: #blockhash) ifNotNil: [ :hash | block := self client getBlock: hash ] ]

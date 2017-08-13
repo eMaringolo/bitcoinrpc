@@ -1,3 +1,3 @@
 values
-calculatedFee
+computeFee
 	^self valueIn - self valueOut
