@@ -2,10 +2,12 @@
 	"commentStamp" : "EstebanMaringolo 11/28/2017 15:53",
 	"super" : "Object",
 	"category" : "BitcoinRPC-Core",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"words"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BIP39SeedTranslator",
+	"name" : "BIP39MnemonicTranslator",
 	"type" : "normal"
 }
